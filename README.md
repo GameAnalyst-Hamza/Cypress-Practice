@@ -1,42 +1,34 @@
-# Cypress with JavaScript
+## Concepts Covered
 
-## Cypress Environment Setup and Project Execution
+### Interacting with Web Elements
+- Interact with Elements
+- CSS Locators
+- Cypress Custom Attributes
+- Chaining Cypress Methods
+- Getting Element with Index
+- Interaction with Interactive Elements
 
-Before diving into Cypress, ensure your system is equipped with the following prerequisites:
+### Aliases and Assertions
+- Yield Subject from the Command
+- Wrap the Elements
+- Invoke a Function
+- Chai jQuery Assertions
+- Iterating through Web Elements
+- Aliases
 
-- Download and Install [Node.js](https://nodejs.org)
-- Download and Install [npm](https://www.npmjs.com/)
+### Waits
+- Wait for a Certain Time
+- Wait for a Certain Route
 
-## Clone Repository
+### API Functional Testing with Cypress
+- Getting response from API
+- Creating Data using API
+- Updating Data using API
+- Deleting Data using API
 
-Clone this repository to your local machine using Git:
-   ```bash
-   git clone https://github.com/GameAnalyst-Hamza/Cypress-Practice.git
-   ```
+### Design Patterns
+- Page Object Modal
 
-Checkout to Project directory:
-   ```bash
-   cd Cypress-Practice
-   ```
-
-Switch branch from main to Cypress-Part1 or Cypress-Part2
-   ```bash
-   git checkout Cypress-Part1
-   ```
-   OR
-   ```bash
-   git checkout Cypress-Part2
-   ```
-   
-Install Cypress as a development dependency using npm
-   ```bash
-   npm install cypress --save-dev
-   ```
-
-Open Cypress Test Runner: After installing Cypress, you can launch the Cypress Test Runner with the following command
-   ```bash
-   npx cypress open
-   ```
-
-> Note:
-`Cypress-Part1` and `Cypress-Part2` contains different reference code for practice checkout relative Readme.md file for whats covered on those branches
+### Other Cypress Features
+- Viewport
+- Cypress Retries
